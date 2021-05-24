@@ -1,10 +1,11 @@
-function min(v,y) {
-    var first = v;
-    var second =y;
-    if(first < second) {
-        return("first is lesser");
-    }else {
-        return("second is lesser");
+// Function that takes 2 paramiters (values)
+function maxOfTwo(first, second) {
+    // If block compares if the second value is smaller the first
+    if (first > second) {
+      // If the condition is true, then returns second as smaller then first
+      return second;
+    } else {
+      // If the condition is false, then returns first as smaller then second
+      return first;
     }
-    min(3,2) //tema 4
-}
+  }
